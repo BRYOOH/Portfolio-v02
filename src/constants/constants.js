@@ -13,14 +13,12 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  meta,
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
+  ecommerce,
+  pong,
   tripguide,
   threejs,
 } from "../assets";
@@ -156,35 +154,35 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Muchira proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Email: erono@sysre.co.ke Phone: +254708002921",
+    name: "Edwin Rono",
+    designation: "Senior Software Developer",
+    company: "System Reenginnered Limited",
+    image: "https://randomuser.me/api/portraits/men/91.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Muchira does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Email:info@regent-mgt.com Phone: +254722691641",
+    name: "Mr Humprey",
+    designation: "ICT officer",
+    company: "Regent Management",
+    image: "https://randomuser.me/api/portraits/men/80.jpg",
   },
   {
     testimonial:
-      "After Muchira optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Email: nKimanzi@gmail.com Phone: +254720528337",
+    name: "Nicholas Kimanzi",
+    designation: "Fund Manger",
+    company: "NG-CDF Machakos",
+    image: "https://randomuser.me/api/portraits/men/87.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "E-Commerce",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to browse a variaty of clothing items and also to buy selected items and rate each product ",
     tags: [
       {
         name: "react",
@@ -199,45 +197,45 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: ecommerce,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Java Ping Pong Game",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Java 2D application that allows the user to hit a ball with the paddle and compete with the AI to see who scores the highest. After every score the paddle and ball reseet their positions",
     tags: [
       {
-        name: "react",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Swing",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "User Interface",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: pong,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Unity Flappy bird 2D",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Unity engine application where the user controls a bird and tries to manuver through obstacles without colliding. When the bird collides the score is reset and the Play game interface loads.",
     tags: [
       {
-        name: "nextjs",
+        name: "Unity",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "C#",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "User Interface",
         color: "pink-text-gradient",
       },
     ],

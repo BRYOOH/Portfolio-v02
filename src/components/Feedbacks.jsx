@@ -14,7 +14,7 @@ const Feedbacks = () => {
        What Others Say 
         </p>
         <h2 className={styles.sectionHeadText}>
-          Testimonials
+          References
         </h2>
       </motion.div>
      </div>
